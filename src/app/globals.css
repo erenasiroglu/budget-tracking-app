@@ -3,21 +3,21 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: 0 0% 100%;
+  --foreground: 0 0% 9%;
   
   /* Bütçe uygulaması için ek renkler */
-  --primary: #2563eb;
-  --primary-foreground: #ffffff;
-  --success: #16a34a;
-  --warning: #ca8a04;
-  --danger: #dc2626;
+  --primary: 222 84% 53%;
+  --primary-foreground: 0 0% 100%;
+  --success: 142 76% 36%;
+  --warning: 48 96% 40%;
+  --danger: 0 74% 51%;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: 0 0% 4%;
+    --foreground: 0 0% 93%;
   }
 }
 
