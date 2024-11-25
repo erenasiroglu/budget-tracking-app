@@ -1,3 +1,4 @@
+"use client";
 import { createContext, useReducer, useEffect } from "react";
 import { v4 as uuidv4 } from "uuid";
 import { BudgetState, Transaction, Category } from "../lib/types";
